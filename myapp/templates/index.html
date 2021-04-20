@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>search object here </h2>
+{% for i in obj %}
+    {{i.name}}
+
+    {{i.dob}}<br>
+{% endfor %}
+{% endblock %}
